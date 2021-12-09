@@ -6,6 +6,6 @@
 * Grid
 * Flexbox
 
-
+Для просмотра проекта перейдите по ссылке: https://vmazikov.github.io/russian-travel/
 
 
