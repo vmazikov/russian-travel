@@ -1,0 +1,30 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  background-color: #2A2C2F;
+  color: #FFF;
+  min-width: 320px;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 28px 48px 24px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+}
+
+
+@media screen and (max-width: 1150px) {
+  .page {
+    padding: 28px 0 24px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .page {
+    padding: 16px 0 24px;
+  }
+}
+

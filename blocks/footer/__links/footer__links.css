@@ -1,0 +1,10 @@
+.footer__links {
+
+}
+
+@media screen and (max-width: 550px) {
+  .footer__links {
+      display: grid;
+      row-gap: 32px;
+  }
+}

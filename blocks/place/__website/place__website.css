@@ -1,0 +1,15 @@
+.place__website {
+  box-sizing: border-box;
+  grid-column-start: 2;
+  grid-row-start: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+@media screen and (max-width: 650px) {
+  .place__website {
+    grid-row: 2;
+    padding: 0 16px;
+  }
+}

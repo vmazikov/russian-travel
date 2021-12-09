@@ -1,0 +1,12 @@
+.place__paragraphs {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(2, auto-fill);
+}
+
+@media screen and (max-width: 650px) {
+  .place__paragraphs {
+    padding: 0 16px;
+    grid-row: 4;
+  }
+}
