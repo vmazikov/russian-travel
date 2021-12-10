@@ -38,5 +38,5 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/list/list.css);
 @import url(../blocks/list/__text/list__text.css);
-@import url(../blocks/list/__number/list__number.css);
+@import url(../blocks/list/__text-number/list__text-number.css);
 @import url(../blocks/hover-link/hover-link.css);
