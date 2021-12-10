@@ -1,4 +1,5 @@
 .lead__subtitle {
+  box-sizing: border-box;
   margin: 32px auto 64px;
   max-width: 640px;
   font-family: Inter, Arial, sans-serif;
@@ -7,18 +8,11 @@
   font-size: 30px;
   line-height: 36px;
   text-align: center;
-  margin: 0 auto;
 }
 
 @media screen and (max-width: 1150px) {
   .lead__subtitle {
     margin: 32px auto 56px;
-  }
-}
-
-@media screen and (max-width: 1150px) {
-  .lead__subtitle {
-    padding: 0 24px;
   }
 }
 

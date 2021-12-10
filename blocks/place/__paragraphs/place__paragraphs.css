@@ -1,7 +1,7 @@
 .place__paragraphs {
   box-sizing: border-box;
   display: grid;
-  grid-template-columns: repeat(2, auto-fill);
+  grid-template-rows: repeat(2, minmax(min-content, max-content));
 }
 
 @media screen and (max-width: 650px) {
