@@ -1,10 +1,9 @@
 .footer__links {
-
+  display: flex;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 650px) {
   .footer__links {
-      display: grid;
-      row-gap: 32px;
+    flex-direction: column;
   }
 }

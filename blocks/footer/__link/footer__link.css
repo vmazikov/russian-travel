@@ -12,3 +12,15 @@
 .footer__link:last-of-type {
   margin-right: 0;
 }
+
+@media screen and (max-width: 650px) {
+  .footer__link {
+    margin-bottom: 32px;
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .footer__link:last-of-type {
+    margin-bottom: 0;
+  }
+}

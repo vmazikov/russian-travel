@@ -1,5 +1,4 @@
 .lead__title {
-  box-sizing: border-box;
   margin: 56px auto 0;
   max-width: 720px;
   font-family: Inter, Arial, sans-serif;
@@ -17,10 +16,10 @@
   }
 }
 
-@media screen and (max-width: 890px) {
+@media screen and (max-width: 700px) {
   .lead__title {
-    font-size: clamp(40px, 70px, 96px);
-    line-height: clamp(44px, 74px, 100px);
+    font-size: 40px;
+    line-height: 44px;
   }
 }
 
